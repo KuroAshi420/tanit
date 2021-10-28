@@ -1,0 +1,76 @@
+.slider{
+    height: 450px !important;
+    padding: 0 !important;
+}
+.slider-left{
+    background-color: #457871;
+    height: 100%;
+}
+
+.slider-right{
+    background-image: url('https://i.imgur.com/12nYmRl.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.slider-section{
+    position: absolute;
+    top: calc(50% - 43.5px);
+   
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-around; */
+    padding:0 8%;
+}
+.slider-container>div{
+  
+    text-align: start;
+    position: absolute;
+    left: 15%;
+}
+.slider-text{
+    color: #ffffff;
+    font-size: 75px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+    text-align: left;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.slider-btn{
+    height: 80px;
+    width: 80px;
+    border-radius: 0 20px 0 20px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
+
+.slider-btn-lorem{
+    height: 50px;
+    width: 190px;
+    border-radius: 0 20px 0 20px;
+    border: 2px solid #ffffff;
+    background-color: #c1a88c;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 45px;
+    
+}
+
+.slider-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-btn-icons{
+    color: #ffffff;
+    font-size: 45px !important;
+}

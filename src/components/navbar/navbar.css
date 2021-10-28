@@ -1,0 +1,130 @@
+
+.navigationBar{
+padding: 20px 0;
+
+}
+.topnav-icon{
+    height:19px;
+    color: #457871;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 0 30px
+;
+}
+.topbar a{
+    color: #457871 !important; 
+    font-size: 14px;
+    cursor: pointer;
+}
+.separation{
+    width: 1px;
+    height: 25px;
+    background-color: #cadedc;
+    margin: 0 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.logo{
+    width: 190px
+;
+    height: 68px
+;
+    border: 1px
+ solid #457871;
+    border-top-right-radius: 15px
+;
+    border-bottom-left-radius: 15px
+;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toplogo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+.logo-eda{
+    font-size: 32px;
+    color: #457871;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.logo-point{
+    font-size: 32px;
+    color: #c1a88c;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.logo-presse{
+    font-size: 20px;
+    color: #457871;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600; 
+    margin-bottom: 0;
+}
+.bottomlogo{
+
+}
+.bottomlogo p{
+font-size: 12px;
+color: #457871;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    margin-bottom: 0;
+}
+
+.navigation{
+
+}
+
+.navigation-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation-list li{
+   margin-right: 20px;
+}
+
+.navigation-list li a{
+   color: #457871 !important;
+   font-size: 16px;
+   font-family: 'Lexend Deca';
+   font-weight: 600;
+ }
+
+.search-navbar{
+    width: 50px;
+    height: 50px;
+border-radius: 50%;
+border: 1px solid#45787140;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.loopIcon{
+    color: #457871 !important;
+}
+
+
+.nav-social-icons{
+    color: #457871 ;
+    font-size: 16px;
+}

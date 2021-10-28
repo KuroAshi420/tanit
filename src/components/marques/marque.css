@@ -1,0 +1,13 @@
+.marque-title{
+    color: #c18e71;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.marque-container{
+    margin: 94px 150px;
+}
+
+.marque-logo-container{
+    align-self: center;
+}
